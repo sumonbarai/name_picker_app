@@ -31,7 +31,7 @@ function play() {
 }
 
 function back() {
-  window.location.href = "http://127.0.0.1:5500/";
+  window.location.href = "https://sumonbarai.github.io/name_picker_app/";
 }
 
 function saveToLocal() {
