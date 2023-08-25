@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lottery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="getToLocal()">
+    <div class="container">
+      <div class="card" id="card">
+        <div class="coolinput">
+          <label for="input" class="text">Name</label>
+          <input
+            type="text"
+            placeholder="Write here..."
+            name="input"
+            class="input"
+            id="input"
+          />
+        </div>
+
+        <div class="buttonContainer">
+          <button class="addButton" onclick="add()">Add</button>
+          <button class="playButton" onclick="play()">Play</button>
+          <button class="playButton" onclick="removeToLocal()">clear</button>
+        </div>
+      </div>
+     
+        
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
